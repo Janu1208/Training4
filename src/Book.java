@@ -13,7 +13,7 @@ public class Book {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        Book bk1 = new Book("C", 200, "Balagurusamy");
-       Book bk2 = new Book("C", 200, "Balagurusamy");
+       Book bk2 = new Book("java", 250, "gosling");
        Book bk3=bk1;
        
        System.out.println("Hash Code => book1:" +bk1.hashCode()+ " Hash Code => book2:" +bk2.hashCode()+ " Hash Code => book3:" +bk1.hashCode());
